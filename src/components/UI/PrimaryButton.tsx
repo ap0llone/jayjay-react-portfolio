@@ -3,7 +3,7 @@ import React from "react";
 interface Props {
     text: string;
     icon?: string;
-    href: string;
+    href?: string;
 }
 
 const PrimaryButton: React.FC<Props> = ({ text, icon, href }) => {
