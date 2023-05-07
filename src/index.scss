@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+body {
+    background-color: #1a1a29;
+}
+
+.primary-btn {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    background: #7562e0;
+    border-radius: 8px;
+    padding: 12px 25px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: 0.2s all ease;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #ffffff;
+
+    &:hover {
+        background: #6c60b4;
+        color: #ffffff;
+    }
+}
+
+.secondary-btn {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    background-color: transparent;
+    border: 2px solid #7562e0;
+    border-radius: 8px;
+    padding: 12px 34px;
+    outline: none;
+    text-decoration: none;
+    transition: 0.2s all ease;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #ffffff;
+
+    &:hover {
+        background: #7562e0;
+        color: #ffffff;
+    }
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #7562e0;
+}
+
+@media (max-width: 992px) {
+    .section-title {
+        text-align: center;
+    }
+}
